@@ -1,0 +1,31 @@
+  .container {
+    width: 500px; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    margin-top: -100px; /* Half of the height */
+    margin-left: -150px; /* Half of the width */
+  }
+  .bordered-div {
+    border: 1px solid #808080; /* 2px solid black border */
+    padding: 20px; /* Optional: Add some padding to make the content look better */
+    border-radius: 10px; 
+    }
+    .red-button {
+    background-color: #FF603E; /* Red background color */
+    color: #FFFFFF; /* White text color */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 200px;
+  }
+input[type="text"], input[type="password"], select, option {
+    padding: 10px; /* Add padding for better spacing */
+    width: 400px; /* Adjust the width as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    border: 1px solid #ccc; /* Add a border for a clean look */
+    border-radius: 5px; /* Add rounded corners */
+}
